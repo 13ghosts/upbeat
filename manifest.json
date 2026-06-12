@@ -1,0 +1,22 @@
+{
+    "id": "upbeat",
+    "name": "Upbeat",
+    "version": "1.0.0",
+    "minNoctaliaVersion": "3.6.0",
+    "author": "neuro",
+    "license": "MIT",
+    "repository": "https://github.com/13ghosts/upbeat",
+    "description": "A bar widget that displays Swatch Internet Time",
+    "tags": ["Bar", "Hyprland", "Fun", "Utility"],
+    "entryPoints": {
+        "main": "Main.qml",
+        "barWidget": "BarWidget.qml",
+        "settings": "Settings.qml"
+    },
+    "dependencies": {
+        "plugins": []
+    },
+    "metadata": {
+        "defaultSettings": {}
+    }
+}
