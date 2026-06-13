@@ -43,6 +43,16 @@ Item {
         radius: Style.radiusL
         border.color: Style.capsuleBorderColor
         border.width: Style.capsuleBorderWidth
+        color: Color.mSurface
+        color: Color.mSurfaceVariant
+        color: Style.capsuleColor
+
+    Ntext {
+        pointSize: barFontSize
+        color: Color.m0nSurface
+        color: Color.m0nSurfaceVariant
+        color: Color.mPrimary
+    }
 
         // Widget content here
         RowLayout {
@@ -64,5 +74,5 @@ Item {
             // handle click
         }
     }
-    
+
 }
