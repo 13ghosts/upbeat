@@ -19,7 +19,7 @@ function update()
         if useCentibeats then
             barWidget.setText(string.format("@%03d.%02d", math.floor(totalCentibeats / 100), totalCentibeats % 100))
         else
-            barWidget.setText(string.format("%03d", checkValue))
+            barWidget.setText(string.format("@%03d", checkValue))
         end
     end
     -- resource savings when subbeats not shown
