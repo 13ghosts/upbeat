@@ -1,0 +1,13 @@
+# Noctalia v5 plugin catalog.
+
+[[plugin]]
+id = "upbeat"
+name = "Upbeat"
+version = "1.0.0"
+author = "neuro"
+license = "MIT"
+icon = "at"
+description = "Bar widget that display Swatch Internet Time (.beats)."
+deprecated = false
+min_noctalia = "5.0.0"
+tags = ["fun", "clock", "utility", "time"]
