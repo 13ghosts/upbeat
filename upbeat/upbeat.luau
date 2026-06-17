@@ -22,6 +22,9 @@ function update()
             barWidget.setText(string.format("@%03d", checkValue))
         end
     end
+
+    -- on hover displays the user's "real" time
+    barWidget.setTooltip(noctalia.formatTime("%T"))
     -- resource savings when subbeats not shown
     if useCentibeats then
         noctalia.setUpdateInterval(200) -- high tick when tracking subbeats
@@ -32,7 +35,3 @@ function update()
         noctalia.setUpdateInterval(math.floor((secondstoNextBeat * 1000) + 100))
     end
 end
-
--- standard defaults
-barWidget.setGlyph("time-duration-symbolic")
-barWidget.class_name = "noctalia-clock-widget"

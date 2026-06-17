@@ -1,7 +1,7 @@
 # Noctalia v5 plugin catalog.
 
 [[plugin]]
-id = "upbeat"
+id = "neuro/upbeat"
 name = "Upbeat"
 version = "1.0.0"
 author = "neuro"
