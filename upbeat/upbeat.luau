@@ -7,7 +7,9 @@ local lastValue: number = -1
 -- seconds per day 86400
 -- seconds per beat 86.4
 -- seconds per centibeat 0.864
+
 function update()
+    barWidget.setGlyph("at")
     local secondsSinceMidnight: number = (os.time() + BIEL_OFFSET_SECONDS) % 86400 -- 86400 = seconds in one day
     local totalCentibeats: number = math.floor(secondsSinceMidnight / SECONDS_PER_CENTIBEAT)
     -- config values from barWidget
@@ -17,9 +19,9 @@ function update()
     if checkValue ~= lastValue then
         lastValue = checkValue
         if useCentibeats then
-            barWidget.setText(string.format("@%03d.%02d", math.floor(totalCentibeats / 100), totalCentibeats % 100))
+            barWidget.setText(string.format("%03d.%02d", math.floor(totalCentibeats / 100), totalCentibeats % 100))
         else
-            barWidget.setText(string.format("@%03d", checkValue))
+            barWidget.setText(string.format("%03d", checkValue))
         end
     end
 
