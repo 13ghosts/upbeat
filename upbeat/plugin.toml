@@ -19,3 +19,17 @@ type = "bool"
 label = "Display subbeats"
 default = true
 description = "Toggle subbeat display (.xx)"
+
+[[widget.setting]]
+key = "beat_display"
+type = "bool"
+label = "Display .beats"
+default = false
+description = "Toggle internet time notation (.beats)"
+
+[[widget.setting]]
+key = "time_format_toggle"
+type = "bool"
+label = "Toggle 24Hr time"
+default = false
+description = "Display 24 hour time"
