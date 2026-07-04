@@ -1,5 +1,5 @@
 <h1>Upbeat</h1>
-<p align="center"><img src="upbeat.png" alt="widget in action"></p>
+<p align="center"><img src="upbeat-thumbnail.webp" alt="widget in action"></p>
 <br>
 <strong>Upbeat</strong> is a bar widget plugin written for Noctalia (v5) that displays the current Internet Time. i believe that .beats are the best, and a subversive, yet extremely accurate and location agnostic way of telling time is objectively best. also it's kinda funny. 
 <br>
