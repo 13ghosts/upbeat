@@ -1,4 +1,4 @@
---!strict
+--!nonstrict
 local BIEL_OFFSET_SECONDS: number = 3600 -- UTC +1
 local SECONDS_PER_CENTIBEAT: number = 0.864
 local lastValue: number = -1
