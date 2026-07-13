@@ -1,9 +1,8 @@
 {
-    "title": "Upbeat",
     "settings": {
         "show_centibeats": {
             "label": "Display subbeats",
-            "description:" "Toggle subbeat display (.xx)"
+            "description": "Toggle subbeat display (.xx)"
         },
         "beat_display": {
             "label": "Display .beats",
