@@ -1,0 +1,35 @@
+id = "neuro/upbeat"
+name = "Upbeat"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+author = "neuro"
+license = "MIT"
+icon = "at"
+deprecated = false
+description = "A bar widget that displays Swatch Internet (.beat) Time"
+tags = ["fun", "clock", "utility", "time"]
+
+[[widget]]
+id = "upbeat"
+entry = "upbeat.luau"
+
+[[widget.setting]]
+key = "show_centibeats"
+type = "bool"
+label = "Display subbeats"
+default = true
+description = "Toggle subbeat display (.xx)"
+
+[[widget.setting]]
+key = "beat_display"
+type = "bool"
+label = "Display .beats"
+default = false
+description = "Toggle internet time notation (.beats)"
+
+[[widget.setting]]
+key = "time_format_toggle"
+type = "bool"
+label = "Toggle 24Hr time"
+default = false
+description = "Display 24 hour time"
