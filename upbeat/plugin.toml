@@ -17,20 +17,20 @@ entry = "upbeat.luau"
 [[widget.setting]]
 key = "show_centibeats"
 type = "bool"
-label_key = "Display subbeats"
+label_key = "settings.show_centibeats.label"
 default = true
-description_key = "Toggle subbeat display (.xx)"
+description_key = "settings.show_centibeats.description"
 
 [[widget.setting]]
 key = "beat_display"
 type = "bool"
-label_key = "Display .beats"
+label_key = "settings.beat_display.label"
 default = false
-description_key = "Toggle internet time notation (.beats)"
+description_key = "settings.beat_display.description"
 
 [[widget.setting]]
 key = "time_format_toggle"
 type = "bool"
-label_key = "Toggle 24Hr time"
+label_key = "settings.time_format_toggle.label"
 default = false
-description_key = "Display 24 hour time"
+description_key = "settings.time_format_toggle.description"
